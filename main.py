@@ -11,6 +11,7 @@ from llama_index.llms.openai import OpenAI
 
 # load the environment variables
 load_dotenv()
+print(os.getenv("OPENAI_API_KEY"))
 
 # specify the path to the data file
 diseaseData_path = os.path.join('data', 'Disease.csv')
